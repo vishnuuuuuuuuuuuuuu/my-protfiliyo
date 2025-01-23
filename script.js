@@ -11,7 +11,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
       document.getElementById("response").textContent = "Thank you for reaching out!";
       document.getElementById("contact-form").reset();
     } else {
-      alert("Please fill in all fields.");
+      alert("Ellathayum fill pannu moothevi");
     }
   });
   

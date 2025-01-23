@@ -23,8 +23,8 @@ body {
 }
 
 #home .content h1 {
-  font-size: 4rem;
-  margin-bottom: 10px;
+  font-size:70px ;
+  margin-bottom: 50px;
 }
 
 #home .content h2 {
@@ -33,22 +33,18 @@ body {
 }
 
 #home .content .btn {
-  background-color: #352a14;
-  color: white;
+  background-color: #0d79f3;
+  color: rgb(24, 6, 6);
   padding: 12px 24px;
   font-size: 1.2rem;
   border: none;
   border-radius: 5px;
-  text-decoration: none;
-}
-
-#home .content .btn:hover {
-  background-color: #352a14;
+  text-decoration:solid;
 }
 
 #about {
   padding: 60px 0;
-  background-color: #ecf0f1;
+  background-color: #e1b481;
   text-align: center;
 }
 
@@ -57,25 +53,19 @@ body {
   margin: 0 auto;
 }
 
-#about .bio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
 #about .bio img {
-  width: 600px; /* Adjusted width */
-  height: 300px; /* Adjusted height */
+  width: 100pxpx; /* Adjusted width */
+  height: 200px; /* Adjusted height */
   border-radius: 5%;
-  border: 5px solid #493c28;
+  border:2px solid #493c28;
 }
 
 
 #about .bio p {
+  text-align: center;
   max-width: 600px;
   font-size: 1.2rem;
-  color: #555;
+  color: #1a1414;
 }
 
 #contact {
@@ -89,7 +79,7 @@ body {
   margin-bottom: 40px;
 }
 
-#contact form input, #contact form textarea {
+#contact form input ,#contact form textarea {
   width: 80%;
   padding: 12px;
   margin: 10px 0;
@@ -99,13 +89,13 @@ body {
 }
 
 #contact form button {
-  background-color: #493c28;
+  background-color: #7e6c51;
   color: white;
   padding: 12px 10px;
   font-size: 1.2rem;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  cursor:crosshair;
 }
 
 #contact form button:hover {
